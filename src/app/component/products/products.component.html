@@ -1,0 +1,19 @@
+<div class="container mt-4 d-flex">
+  <div class="row">
+  <div *ngFor="let product of productList,  let i = index">
+    <div class="card-body" style="height:fit-content">
+      <img src="assets/img/smartphoneimagecart.jpg" style="height:150px">
+      <h5 class="card-title">{{ product.id }} - {{ product.name }}</h5>
+      <p class="card-text">{{ product.description }}</p>
+      <p class="card-text">{{ product.price | currency: "EUR" }}</p>
+      <div><button class="btn btn-success mx-2" (click)="addItemtoCart(product)">
+        Acquista
+      </button>
+      <button class="btn btn-primary" [routerLink]="['/details/', product.id]">
+        Dettagli
+      </button>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>

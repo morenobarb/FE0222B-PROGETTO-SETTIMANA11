@@ -1,0 +1,36 @@
+<form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+  <div class="container">
+    <div class="form-row">
+      <div class="form-group">
+        <label for="inputEmail4"> <strong>Email</strong> </label>
+        <input
+          type="email"
+          class="form-control"
+          id="inputEmail4"
+          placeholder="Email"
+        />
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress"><strong>Address</strong></label>
+      <input
+        type="text"
+        class="form-control"
+        id="inputAddress"
+        placeholder="1234 Main St"
+      />
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="inputCity"><strong>City</strong></label>
+        <input type="text" class="form-control" id="inputCity" />
+      </div>
+      <div class="form-group">
+        <label for="inputZip"><strong>Zip</strong></label>
+        <input type="text" class="form-control" id="inputZip" />
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-success mt-2">Concludi</button>
+  </div>
+</form>
