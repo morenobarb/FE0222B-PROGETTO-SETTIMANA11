@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Phone XL",
+      "price": 799,
+      "description": "Uno dei migliori smartphone in commercio, con schermo ampio"
+    },
+    {
+      "id": 2,
+      "name": "Phone Mini",
+      "price": 699,
+      "description": "Ha un'ottima fotocamera anche se piccolo"
+    },
+    {
+      "id": 3,
+      "name": "Phone Standard",
+      "price": 299,
+      "description": "Un bel prodotto"
+    },
+    {
+      "name": "OnePlus Nord",
+      "price": 500,
+      "description": "Il mio telefono",
+      "id": 4
+    },
+    {
+      "name": "OnePlus Nord2",
+      "price": 600,
+      "description": "Il telefono che vorrei",
+      "id": 5
+    },
+    {
+      "name": "Xiaomi mi12 ultra",
+      "price": 800,
+      "description": "Prodotto best-buy",
+      "id": 6
+    },
+    {
+      "name": "Samsung s22 ultra",
+      "price": 900,
+      "description": "Top-range Samsung",
+      "id": 7
+    },
+    {
+      "name": "Oppo find x5 pro",
+      "price": 1200,
+      "description": "Cameraphone",
+      "id": 8
+    }
+  ],
+  "prices": [
+    {
+      "type": "1-Giorno",
+      "price": 25.99
+    },
+    {
+      "type": "2-Giorni",
+      "price": 9.99
+    },
+    {
+      "type": "5-Giorni",
+      "price": 2.99
+    }
+  ]
+}
