@@ -15,5 +15,6 @@ export class FormComponent implements OnInit {
   }
   onSubmit(form: NgForm) {
     console.log(form.value);
+    form.reset();
   }
 }
