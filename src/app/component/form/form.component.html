@@ -4,30 +4,34 @@
       <div class="form-group">
         <label for="inputEmail4"> <strong>Email</strong> </label>
         <input
+        ngModel
           type="email"
           class="form-control"
           id="inputEmail4"
           placeholder="Email"
+          name = "mail"
         />
       </div>
     </div>
     <div class="form-group">
       <label for="inputAddress"><strong>Address</strong></label>
       <input
+      ngModel
         type="text"
         class="form-control"
         id="inputAddress"
         placeholder="1234 Main St"
+        name="address"
       />
     </div>
     <div class="form-row">
       <div class="form-group">
         <label for="inputCity"><strong>City</strong></label>
-        <input type="text" class="form-control" id="inputCity" />
+        <input ngModel type="text" class="form-control" id="inputCity" name="city"/>
       </div>
       <div class="form-group">
         <label for="inputZip"><strong>Zip</strong></label>
-        <input type="text" class="form-control" id="inputZip" />
+        <input ngModel type="text" class="form-control" id="inputZip" name="zip" />
       </div>
     </div>
 
